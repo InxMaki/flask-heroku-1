@@ -20,6 +20,11 @@ data = [
         }
     ]
 
+@app.route('/')
+daf hello():
+        return "Hello Flash-Heroku"
+
+
 @app.route('/name')
 def name():
     return "เจนจิราพร ทองแดง เลขที่ 10 ม.4/10"
