@@ -20,9 +20,9 @@ data = [
         }
     ]
 
-@app.route('/')
-def hello():
-    return "Hello Flask-Heroku"
+@app.route('/name')
+def name():
+    return "เจนจิราพร ทองแดง เลขที่ 10 ม.4/10"
 
 
 @app.route('/api', methods=['GET'])
