@@ -27,12 +27,6 @@ return "hello Flask-Heroku"
 @app.route('/api', methods=['GET'])
 def get_api():
 
-
-        
-        
-        
-        
-        
         
         return jsonify(data)
 @app.route('/name')
