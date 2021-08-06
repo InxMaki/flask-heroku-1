@@ -21,8 +21,8 @@ data = [
     ]
 
 @app.route('/')
-daf hello():
-        return "Hello Flash-Heroku"
+def hello():
+    return "Hello Flask-Heroku"
 
 
 @app.route('/api', methods=['GET'])
